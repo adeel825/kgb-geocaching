@@ -1,0 +1,16 @@
+{
+  "guid": "c1d2e3f4-0a5b-4c6d-9e7f-002000000002",
+  "cache_number": "KGB-002",
+  "title": "The Birdhouse Communique",
+  "placed_by": "Maryam",
+  "placed_date": "2026-04-26",
+  "location_hint": "Wooden birdhouse, somewhere in the yard",
+  "difficulty": 1,
+  "terrain": 1,
+  "theme": "An easy starter cache for new agents",
+  "content_brief": {
+    "tone_notes": "Beginner-friendly, encouraging tone",
+    "must_include": ["Welcome a first-time finder", "Mention Agent Squirrel"],
+    "must_avoid": ["Anything scary"]
+  }
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>{{ title or kgb.bureau_name }} — {{ kgb.bureau_short }}</title>
+  <link rel="stylesheet" href="/assets/css/kgb.css" />
+</head>
+<body>
+  <header class="kgb-header">
+    <div class="kgb-stamp">CLASSIFIED</div>
+    <div class="kgb-brand">
+      <span class="kgb-bureau">{{ kgb.bureau_name }}</span>
+      <span class="kgb-tagline">{{ kgb.tagline }}</span>
+    </div>
+  </header>
+
+  <main class="kgb-main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="kgb-footer">
+    <div class="kgb-motto">"{{ kgb.footer_motto }}"</div>
+    <div class="kgb-fineprint">{{ kgb.bureau_short }} Internal Document. Do not duplicate.</div>
+  </footer>
+</body>
+</html>

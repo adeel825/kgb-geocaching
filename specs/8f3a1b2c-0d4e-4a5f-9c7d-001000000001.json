@@ -1,0 +1,23 @@
+{
+  "guid": "8f3a1b2c-0d4e-4a5f-9c7d-001000000001",
+  "cache_number": "KGB-001",
+  "title": "The Acorn Drop",
+  "placed_by": "Hamza",
+  "placed_date": "2026-04-25",
+  "location_hint": "Hollow tree, edge of the wooded path",
+  "difficulty": 2,
+  "terrain": 2,
+  "theme": "Recovering a coded message hidden by Agent Squirrel",
+  "content_brief": {
+    "tone_notes": "First cache in the series. Establish the KGB bureau and tone.",
+    "must_include": [
+      "Reference to Agent Squirrel as the courier",
+      "Welcome to the KGB",
+      "Instructions to log the find and rehide"
+    ],
+    "must_avoid": [
+      "Exact location names",
+      "Anything dating the cache to a specific year"
+    ]
+  }
+}

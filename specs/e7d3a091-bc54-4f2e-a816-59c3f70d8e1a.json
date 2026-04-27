@@ -1,0 +1,32 @@
+{
+  "guid": "e7d3a091-bc54-4f2e-a816-59c3f70d8e1a",
+  "cache_number": "KGB-004",
+  "title": "The Pigeon Drop",
+  "placed_by": "Yusuf",
+  "placed_date": "2026-04-25",
+  "location_hint": "concealed near a shaded outdoor resting spot, mid-trail",
+  "difficulty": 3,
+  "terrain": 2,
+  "theme": "KGB intercepted a coded message about a shipment of biryani spices arriving by pigeon",
+  "content_brief": {
+    "tone_notes": "Dry, bureaucratic spy-agency humour with a South Asian culinary undercurrent. The KGB voice should feel officious but lightly absurd — think classified memo meets aunty's kitchen. Difficulty 3 means the narrative can include a layer of misdirection or a cipher flavour; the finder has had to work for this. Terrain 2 is easy walking, so no physical-hardship references in the story.",
+    "series_context": {
+      "series_total": 3,
+      "series_position": 2,
+      "series_note": "This is the second cache in a 3-part series. The content MUST inform the finder that a third and final drop exists and that the full recipe cannot be reconstructed without it. Do not reveal the location of cache 3 — only confirm its existence and that KGB-HQ is monitoring."
+    },
+    "must_include": [
+      "A KGB intercepted dispatch — formatted as a partially redacted classified memo — referencing the coded pigeon message",
+      "Mention of 'Khala's recipe' as the intelligence asset being protected or pursued",
+      "The biryani spice shipment framed as a high-value covert cargo (e.g., whole cardamom, saffron, or a sealed envelope of 'the blend')",
+      "An explicit teaser that a third cache exists and the finder must locate it to complete the mission",
+      "A field-agent sign-off instructing the finder to log the find and rehide the cache exactly as found"
+    ],
+    "must_avoid": [
+      "Naming any real courier service, restaurant, or public landmark",
+      "Revealing or hinting at the physical location of KGB-005 or any future cache",
+      "Overloading the narrative with too many character names — keep it to one or two KGB agent aliases maximum",
+      "Any content that spoils or references the solution to KGB-003"
+    ]
+  }
+}

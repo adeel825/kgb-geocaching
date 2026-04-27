@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+<article class="kgb-dossier">
+  <div class="kgb-dossier-header">
+    <div class="kgb-case-no">CASE FILE: {{ cache_number }}</div>
+    <div class="kgb-classification">EYES ONLY</div>
+  </div>
+
+  <h1 class="kgb-cache-title">{{ title }}</h1>
+
+  <table class="kgb-meta">
+    <tr><th>Placed by</th><td>Agent {{ placed_by }}</td></tr>
+    <tr><th>Date filed</th><td>{{ placed_date }}</td></tr>
+    <tr><th>Difficulty</th><td>{{ difficulty }} / 5</td></tr>
+    <tr><th>Terrain</th><td>{{ terrain }} / 5</td></tr>
+  </table>
+
+  <div class="kgb-content">
+    {{ content | safe }}
+  </div>
+
+  <div class="kgb-seal">
+    <div class="kgb-seal-text">{{ kgb.bureau_short }}</div>
+  </div>
+</article>

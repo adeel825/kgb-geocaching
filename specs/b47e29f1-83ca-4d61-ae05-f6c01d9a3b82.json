@@ -1,0 +1,27 @@
+{
+  "guid": "b47e29f1-83ca-4d61-ae05-f6c01d9a3b82",
+  "cache_number": "KGB-003",
+  "title": "The Missing Shipment",
+  "placed_by": "Maryam",
+  "placed_date": "2026-04-25",
+  "location_hint": "under the wooden bench by the side gate",
+  "difficulty": 1,
+  "terrain": 1,
+  "theme": "a friendly note from Agent Squirrel about a missing acorn shipment",
+  "content_brief": {
+    "tone_notes": "Warm and playful. This is a beginner cache so the tone should feel welcoming and low-stakes — suitable for first-time finders and younger seekers. Difficulty and terrain were specified as Beginner, mapped to 1/1.",
+    "must_include": [
+      "A handwritten-style note attributed to Agent Squirrel",
+      "Reference to an acorn shipment that has gone missing under mysterious (but lighthearted) circumstances",
+      "A request for the finder's help in reporting the find to KGB HQ",
+      "Instructions to sign the logbook and carefully rehide the cache",
+      "A warm sign-off from Agent Squirrel"
+    ],
+    "must_avoid": [
+      "Exact identification of the bench or gate location by name",
+      "Dark, threatening, or overly complex spy jargon",
+      "Any reference to real public locations, landmarks, or named parks",
+      "Content that would exclude or intimidate a first-time geocacher"
+    ]
+  }
+}

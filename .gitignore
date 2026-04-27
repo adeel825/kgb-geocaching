@@ -1,0 +1,24 @@
+# Build output
+_site/
+
+# Dependencies
+node_modules/
+
+# Generated printables (regenerable from specs)
+printables/*.pdf
+printables/*.png
+!printables/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+*.log

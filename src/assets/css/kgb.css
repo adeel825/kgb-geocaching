@@ -1,0 +1,237 @@
+/* ==========================================================================
+   KGB Geocaching Bureau — Stylesheet
+   Spy-dossier aesthetic. Paper, ink, red stamp.
+   ========================================================================== */
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #f4f1e8;
+  --paper-aged: #ebe5d3;
+  --stamp-red: #a8312f;
+  --muted: #6b6b6b;
+  --border: #c4bda8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.kgb-header {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-bottom: 4px double var(--stamp-red);
+}
+
+.kgb-stamp {
+  background: var(--stamp-red);
+  color: var(--paper);
+  padding: 0.4rem 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 0.85rem;
+  transform: rotate(-2deg);
+  border: 2px solid var(--paper);
+}
+
+.kgb-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.kgb-bureau {
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.kgb-tagline {
+  font-size: 0.8rem;
+  color: var(--border);
+  font-style: italic;
+}
+
+/* Main content */
+.kgb-main {
+  flex: 1;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+/* Dossier card */
+.kgb-dossier {
+  background: var(--paper-aged);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  position: relative;
+  box-shadow: 2px 2px 0 var(--border), 4px 4px 0 var(--ink);
+}
+
+.kgb-dossier-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.kgb-case-no {
+  font-weight: bold;
+  color: var(--ink);
+}
+
+.kgb-classification {
+  color: var(--stamp-red);
+  font-weight: bold;
+}
+
+.kgb-cache-title {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  margin: 0 0 1.2rem 0;
+  color: var(--ink);
+  border-bottom: 2px solid var(--stamp-red);
+  padding-bottom: 0.4rem;
+}
+
+.kgb-meta {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.kgb-meta th {
+  text-align: left;
+  width: 8rem;
+  padding: 0.3rem 0.5rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.kgb-meta td {
+  padding: 0.3rem 0.5rem;
+  color: var(--ink);
+}
+
+.kgb-meta tr {
+  border-bottom: 1px dashed var(--border);
+}
+
+.kgb-content h2 {
+  font-family: Georgia, serif;
+  color: var(--stamp-red);
+  font-size: 1.15rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.kgb-content p {
+  margin: 0.6rem 0;
+}
+
+.kgb-seal {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 70px;
+  height: 70px;
+  border: 3px solid var(--stamp-red);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-12deg);
+  opacity: 0.7;
+}
+
+.kgb-seal-text {
+  color: var(--stamp-red);
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+}
+
+/* Lobby (homepage) */
+.kgb-lobby {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.kgb-lobby h1 {
+  font-family: Georgia, serif;
+  font-size: 2.4rem;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.kgb-lobby .kgb-lobby-sub {
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.kgb-lobby .kgb-lobby-note {
+  background: var(--paper-aged);
+  border: 1px dashed var(--border);
+  padding: 1.5rem;
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+.kgb-footer {
+  background: var(--ink);
+  color: var(--border);
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 4px double var(--stamp-red);
+}
+
+.kgb-motto {
+  font-style: italic;
+  margin-bottom: 0.3rem;
+}
+
+.kgb-fineprint {
+  color: var(--muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .kgb-header { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
+  .kgb-cache-title { font-size: 1.5rem; }
+  .kgb-seal { width: 55px; height: 55px; bottom: 1rem; right: 1rem; }
+  .kgb-seal-text { font-size: 1.1rem; }
+  .kgb-meta th { width: 6rem; }
+}

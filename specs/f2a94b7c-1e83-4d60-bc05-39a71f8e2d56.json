@@ -1,0 +1,27 @@
+{
+  "guid": "f2a94b7c-1e83-4d60-bc05-39a71f8e2d56",
+  "cache_number": "KGB-006",
+  "title": "Operation: Grill & Seek",
+  "placed_by": "Asad",
+  "placed_date": "2026-04-25",
+  "location_hint": "Outdoor recreational area with communal cooking facilities, Colonial Park",
+  "difficulty": 2,
+  "terrain": 2,
+  "theme": "Kid-friendly KGB spy dossier — rookie agent receives a top-secret mission at a field operative's outdoor rendezvous point",
+  "content_brief": {
+    "tone_notes": "Playful, age-appropriate spy thriller tone. Think junior secret agent handbook, not adult espionage. Use KGB bureau language (dossiers, operatives, codenames, missions) but keep vocabulary accessible to children aged 6+. Difficulty and terrain defaulted to 2 as none were specified by the hider.",
+    "must_include": [
+      "An in-universe KGB mission briefing framing the finder as a newly recruited field operative",
+      "A reference to the BBQ/grill area as a 'covert rendezvous point' or 'field station' without naming the exact park feature",
+      "A kid-friendly challenge or puzzle element as part of the 'mission' before the final container is revealed",
+      "Sign-the-log instruction reframed as 'confirming your operative identity in the mission ledger'",
+      "A sign-off from a fictional KGB handler character (e.g., 'Handler Asad' or an invented codename)"
+    ],
+    "must_avoid": [
+      "Any real names of specific park features, structures, or exact hiding coordinates",
+      "Adult spy themes such as weapons, real-world geopolitics, or actual intelligence agencies",
+      "References to fire, flames, or dangerous use of the BBQ equipment — keep setting incidental, not interactive",
+      "Personally identifying information about the hider beyond the codename/handler role"
+    ]
+  }
+}

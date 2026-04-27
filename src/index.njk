@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: KGB Headquarters
+permalink: /index.html
+---
+<div class="kgb-lobby">
+  <h1>{{ kgb.bureau_name }}</h1>
+  <p class="kgb-lobby-sub">{{ kgb.tagline }}</p>
+
+  <div class="kgb-lobby-note">
+    <p><strong>This is a private bureau.</strong></p>
+    <p>If you found a {{ kgb.bureau_short }} cache in the field,
+       scan its QR code. The QR will take you directly to your case file.</p>
+    <p>If you stumbled here without a cache, you are in the wrong building.
+       Have a pleasant day, citizen.</p>
+  </div>
+</div>

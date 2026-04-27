@@ -1,0 +1,34 @@
+{
+  "guid": "a3f8c271-6b04-4e9d-b152-d70e5a91fc38",
+  "cache_number": "KGB-005",
+  "title": "The Final Ingredient",
+  "placed_by": "Hamza",
+  "placed_date": "2026-04-25",
+  "location_hint": "backyard",
+  "difficulty": 1,
+  "terrain": 3,
+  "theme": "Eid celebration — the finder recovers the last fragment of Khala's stolen biryani recipe and completes the mission",
+  "content_brief": {
+    "tone_notes": "Fun, celebratory, and light. This is the payoff cache — the finder has followed the full trail and deserves a triumphant, festive finish. Eid framing should feel warm and inclusive, suitable for kids and families. Difficulty 1 means the narrative can be direct and rewarding, no misdirection. Terrain 3 reflects a physical challenge to reach the hide (writer may acknowledge 'you had to work for it') but keep the language encouraging, not intimidating.",
+    "series_context": {
+      "series_total": 3,
+      "series_position": 3,
+      "series_note": "This is the THIRD and FINAL cache in the Khala's Recipe trilogy. KGB-003 ('The Missing Shipment') was a standalone introductory drop. KGB-004 ('The Pigeon Drop') established the biryani spice / Khala's recipe storyline and explicitly promised a third cache. THIS cache is the resolution: the finder retrieves the last missing ingredient or recipe fragment, the mission is declared complete, and the celebration begins. The content must deliver a satisfying narrative close — no loose threads, no teaser for a future cache."
+    },
+    "must_include": [
+      "An opening that acknowledges the finder has completed the full series — they are a fully verified KGB field agent",
+      "Explicit resolution of the Khala's recipe storyline: the final spice or sealed recipe card is recovered, the biryani can now be made",
+      "Eid celebration framing — the recovered recipe is 'just in time for Eid', the mission was always about the feast",
+      "A congratulatory tone befitting a series finale — the KGB bureau thanks the agent by name (or alias) for their service",
+      "A kid-friendly flourish: something playful tied to Eid (e.g., mithai, Eid Mubarak, the smell of biryani wafting from HQ)",
+      "Standard field-agent close: sign the logbook, rehide carefully, and report the mission complete to KGB-HQ"
+    ],
+    "must_avoid": [
+      "Any teaser or hint at a fourth cache or future series — this is a definitive ending",
+      "Naming real public locations, restaurants, or landmarks",
+      "Content that requires the finder to have found KGB-003 or KGB-004 to understand — the finale should feel complete even for a solo find, while rewarding those who did the full trail",
+      "Dark or tense spy jargon — the register is celebratory, not classified-document bureaucratic",
+      "Excluding or alienating non-Muslim finders: Eid framing should feel like a warm family celebration, universally joyful"
+    ]
+  }
+}
