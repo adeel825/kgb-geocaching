@@ -16,13 +16,6 @@
     </div>
   </header>
 
-  {% if heroImg %}
-  <figure class="kgb-hero">
-    <img src="{{ heroImg | url }}" alt="{{ heroAlt }}" class="kgb-hero-img" />
-    <figcaption class="kgb-hero-caption">FIELD PHOTOGRAPH — CLASSIFIED</figcaption>
-  </figure>
-  {% endif %}
-
   <main class="kgb-main">
     {{ content | safe }}
   </main>

@@ -177,31 +177,30 @@ body {
   letter-spacing: 0.1em;
 }
 
-/* Hero banner — full viewport width, natural aspect ratio, no cropping */
-.kgb-hero {
-  display: block;
-  margin: 0;
+/* Field photograph — small centered image below the lobby note */
+.kgb-field-photo {
+  margin: 2rem auto 0;
   padding: 0;
-  overflow: hidden;
-  border-top: 1px solid var(--border);
-  border-bottom: 3px double var(--stamp-red);
+  max-width: 320px;
+  border: 6px solid var(--paper-aged);
+  outline: 1px solid var(--border);
+  box-shadow: 3px 3px 0 var(--border), 5px 5px 0 var(--ink);
 }
 
-.kgb-hero-img {
+.kgb-field-photo img {
   display: block;
   width: 100%;
   height: auto;
-  filter: grayscale(30%) sepia(15%) contrast(1.05);
+  filter: grayscale(40%) sepia(20%) contrast(1.05);
 }
 
-.kgb-hero-caption {
-  display: block;
+.kgb-field-photo figcaption {
   background: var(--ink);
   color: var(--border);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   letter-spacing: 0.2em;
-  text-align: right;
-  padding: 0.25rem 0.75rem;
+  text-align: center;
+  padding: 0.2rem 0.5rem;
 }
 
 /* Lobby (homepage) */

@@ -2,8 +2,6 @@
 layout: layouts/base.njk
 title: KGB Headquarters
 permalink: /index.html
-heroImg: /assets/img/hero.jpg
-heroAlt: "KGB field operative conducting surveillance — classified field photograph"
 ---
 <div class="kgb-lobby">
   <h1>{{ kgb.bureau_name }}</h1>
@@ -16,4 +14,9 @@ heroAlt: "KGB field operative conducting surveillance — classified field photo
     <p>If you stumbled here without a cache, you are in the wrong building.
        Have a pleasant day, citizen.</p>
   </div>
+
+  <figure class="kgb-field-photo">
+    <img src="{{ '/assets/img/hero.jpg' | url }}" alt="KGB field operative conducting surveillance — classified field photograph" />
+    <figcaption>FIELD PHOTOGRAPH — CLASSIFIED</figcaption>
+  </figure>
 </div>
