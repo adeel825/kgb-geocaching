@@ -177,14 +177,14 @@ body {
   letter-spacing: 0.1em;
 }
 
-/* Hero banner */
+/* Hero banner — lives outside .kgb-main so it's full viewport width */
 .kgb-hero {
   margin: 0;
   padding: 0;
   width: 100%;
   overflow: hidden;
+  border-top: 1px solid var(--border);
   border-bottom: 3px double var(--stamp-red);
-  position: relative;
 }
 
 .kgb-hero-img {
@@ -194,7 +194,6 @@ body {
   object-fit: cover;
   object-position: center;
   filter: grayscale(30%) sepia(15%) contrast(1.05);
-  border-bottom: 1px solid var(--border);
 }
 
 .kgb-hero-caption {
