@@ -177,13 +177,11 @@ body {
   letter-spacing: 0.1em;
 }
 
-/* Hero banner — lives outside .kgb-main so it's full viewport width.
-   Height is on the figure so object-fit: cover has a real box to fill. */
+/* Hero banner — full viewport width, natural aspect ratio, no cropping */
 .kgb-hero {
-  display: block;  /* explicit: some browsers treat figure as inline */
+  display: block;
   margin: 0;
   padding: 0;
-  height: 420px;
   overflow: hidden;
   border-top: 1px solid var(--border);
   border-bottom: 3px double var(--stamp-red);
@@ -192,9 +190,7 @@ body {
 .kgb-hero-img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
   filter: grayscale(30%) sepia(15%) contrast(1.05);
 }
 
@@ -261,7 +257,6 @@ body {
 /* Mobile */
 @media (max-width: 640px) {
   .kgb-header { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
-  .kgb-hero { height: 220px; }
   .kgb-cache-title { font-size: 1.5rem; }
   .kgb-seal { width: 55px; height: 55px; bottom: 1rem; right: 1rem; }
   .kgb-seal-text { font-size: 1.1rem; }
