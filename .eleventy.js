@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
 
   return {
+    pathPrefix: "/kgb-geocaching/",
     dir: {
       input: "src",
       output: "_site",
