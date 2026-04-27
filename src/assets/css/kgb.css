@@ -177,6 +177,36 @@ body {
   letter-spacing: 0.1em;
 }
 
+/* Hero banner */
+.kgb-hero {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 3px double var(--stamp-red);
+  position: relative;
+}
+
+.kgb-hero-img {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(30%) sepia(15%) contrast(1.05);
+  border-bottom: 1px solid var(--border);
+}
+
+.kgb-hero-caption {
+  display: block;
+  background: var(--ink);
+  color: var(--border);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-align: right;
+  padding: 0.25rem 0.75rem;
+}
+
 /* Lobby (homepage) */
 .kgb-lobby {
   text-align: center;
@@ -230,6 +260,7 @@ body {
 /* Mobile */
 @media (max-width: 640px) {
   .kgb-header { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
+  .kgb-hero-img { max-height: 220px; }
   .kgb-cache-title { font-size: 1.5rem; }
   .kgb-seal { width: 55px; height: 55px; bottom: 1rem; right: 1rem; }
   .kgb-seal-text { font-size: 1.1rem; }
