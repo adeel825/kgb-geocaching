@@ -2,8 +2,8 @@
   "bureau_name": "Khan Geocaching Bureau",
   "bureau_short": "KGB",
   "tagline": "Classified field operations since the era of muddy boots.",
-  "base_url": "http://localhost:8080",
-  "production_url": "https://YOUR-USERNAME.github.io/kgb-geocaching",
+  "base_url": "https://adeel825.github.io/kgb-geocaching",
+  "production_url": "https://adeel825.github.io/kgb-geocaching",
   "colors": {
     "ink": "#1a1a1a",
     "paper": "#f4f1e8",

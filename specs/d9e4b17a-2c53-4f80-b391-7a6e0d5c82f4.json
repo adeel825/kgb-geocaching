@@ -1,0 +1,27 @@
+{
+  "guid": "d9e4b17a-2c53-4f80-b391-7a6e0d5c82f4",
+  "cache_number": "KGB-007",
+  "title": "The Kangaroo Courier",
+  "placed_by": "Queen of England, Alina",
+  "placed_date": "2026-05-01",
+  "location_hint": "Outdoor natural area in Australia, kangaroo habitat nearby",
+  "difficulty": 2,
+  "terrain": 2,
+  "theme": "A royal KGB mission briefing delivered through the Australian outback, with kangaroos as unwitting couriers",
+  "content_brief": {
+    "tone_notes": "KGB spy-agency dossier style — official, mysterious, mission-critical — but kept warm and kid-friendly throughout. Think 'top-secret letter written by a queen who is also a spy handler and very fond of kangaroos.' Difficulty and terrain were not specified by the placer; both defaulted to 2.",
+    "must_include": [
+      "Queen of England, Alina is introduced as the handler/authority figure issuing the mission",
+      "Kangaroos appear meaningfully in the story — not just as background colour, but as participants or plot devices in the mission",
+      "A dossier-style opening (e.g., 'CLASSIFIED', 'EYES ONLY', 'MISSION BRIEFING') appropriate for young agents",
+      "A sense of being trusted with an important royal and spy-agency task",
+      "Warm sign-off from Queen Alina acknowledging the finder as a valued KGB operative"
+    ],
+    "must_avoid": [
+      "Real names of specific public landmarks or exact hiding locations in Australia",
+      "Scary, violent, or dark spy content — must stay warm and age-appropriate",
+      "Adult-coded spy tropes (weapons, danger, betrayal) — keep stakes lighthearted",
+      "Mocking or stereotyping Australian culture"
+    ]
+  }
+}
