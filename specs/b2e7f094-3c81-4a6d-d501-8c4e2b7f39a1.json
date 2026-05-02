@@ -1,0 +1,27 @@
+{
+  "guid": "b2e7f094-3c81-4a6d-d501-8c4e2b7f39a1",
+  "cache_number": "KGB-008",
+  "title": "The Mall Mole",
+  "placed_by": "Asad",
+  "placed_date": "2026-05-01",
+  "location_hint": "Shopping mall or adjacent retail area, indoor or covered outdoor environment",
+  "difficulty": 2,
+  "terrain": 2,
+  "theme": "A junior KGB operative must locate a mole hiding secret documents somewhere inside a bustling shopping mall",
+  "content_brief": {
+    "tone_notes": "KGB spy-agency dossier style — officiously bureaucratic but warm, funny, and kid-friendly throughout. The mall setting should feel like an exciting covert backdrop, not a mundane one. Think 'your mission, should you choose to accept it... is to find the pretzel stand first.' Difficulty and terrain were not specified by the placer; both defaulted to 2.",
+    "must_include": [
+      "Field Agent Asad is introduced as the handler who planted the cache and is watching from a safe distance (possibly the food court)",
+      "The shopping mall setting is woven into the mission narrative — shops, shoppers, and mall geography all play a role",
+      "A dossier-style opening appropriate for young agents (e.g., CLASSIFIED, MISSION BRIEFING, EYES ONLY)",
+      "A cover story the finder can use if spotted — e.g., pretending to look for a lost balloon or compare sneakers",
+      "A warm congratulatory sign-off from Agent Asad acknowledging the finder as a newly certified KGB Mall Operative"
+    ],
+    "must_avoid": [
+      "Real names of specific mall chains, store brands, or exact hiding locations",
+      "Scary, violent, or dark spy content — must stay warm and age-appropriate",
+      "Adult-coded spy tropes (weapons, danger, betrayal) — keep stakes lighthearted and silly",
+      "Content that could alarm mall security or bystanders if read aloud"
+    ]
+  }
+}
