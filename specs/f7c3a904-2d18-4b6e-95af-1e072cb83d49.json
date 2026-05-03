@@ -1,0 +1,29 @@
+{
+  "guid": "f7c3a904-2d18-4b6e-95af-1e072cb83d49",
+  "cache_number": "KGB-001",
+  "title": "The Founding Drop",
+  "placed_by": "The KGB Founding Members",
+  "placed_date": "2026-05-03",
+  "location_hint": "Trail off Butler Road, Central Jersey",
+  "difficulty": 2,
+  "terrain": 2,
+  "theme": "The origin story of the Khan Geocaching Bureau — the inaugural cache placed by its founding members on the day the agency was born",
+  "content_brief": {
+    "tone_notes": "Spy-agency dossier style, warm and kid-friendly. Use official-sounding bureau language (classified, field agents, headquarters, mission briefing) but keep it playful and age-appropriate. This is the very first KGB cache ever — the founding moment. Convey real excitement: the Bureau has been officially established, agents have been recruited, and this trail in Central Jersey is where it all began. More missions and more caches are coming. KGB stands for Khan Geocaching Bureau.",
+    "must_include": [
+      "Introduce the KGB as the Khan Geocaching Bureau — what it is and why it was founded",
+      "Establish this as Cache #001, the very first cache ever placed by the agency",
+      "Tell the story of how the founding members started the KGB — make it fun and dramatic for kids",
+      "Reference this beautiful trail in Central Jersey as the birthplace of the KGB",
+      "Build excitement that this is only the beginning — more caches and missions are coming",
+      "A call-to-action for the finder to officially become a KGB field agent by signing the log",
+      "Instructions to rehide the cache exactly as found"
+    ],
+    "must_avoid": [
+      "Exact street address or precise GPS coordinates in narrative text",
+      "Any content that is scary, violent, or not suitable for young children",
+      "Adult humor or references",
+      "References to the Soviet spy agency"
+    ]
+  }
+}
